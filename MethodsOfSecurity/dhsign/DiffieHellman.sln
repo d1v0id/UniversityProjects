@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "Test\Test.vcxproj", "{DB0EDB75-AEC4-46C8-BC29-390F36B80135}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DiffieHellmanLib", "DiffieHellmanLib\DiffieHellmanLib.vcxproj", "{846A0FAC-7264-4291-8AFC-B7C3D829A786}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB0EDB75-AEC4-46C8-BC29-390F36B80135}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DB0EDB75-AEC4-46C8-BC29-390F36B80135}.Debug|Win32.Build.0 = Debug|Win32
+		{DB0EDB75-AEC4-46C8-BC29-390F36B80135}.Release|Win32.ActiveCfg = Release|Win32
+		{DB0EDB75-AEC4-46C8-BC29-390F36B80135}.Release|Win32.Build.0 = Release|Win32
+		{846A0FAC-7264-4291-8AFC-B7C3D829A786}.Debug|Win32.ActiveCfg = Debug|Win32
+		{846A0FAC-7264-4291-8AFC-B7C3D829A786}.Debug|Win32.Build.0 = Debug|Win32
+		{846A0FAC-7264-4291-8AFC-B7C3D829A786}.Release|Win32.ActiveCfg = Release|Win32
+		{846A0FAC-7264-4291-8AFC-B7C3D829A786}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1 @@
+dinsiter: dinsiter.cpp

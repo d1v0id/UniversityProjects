@@ -1,0 +1,34 @@
+.msw-center-text {
+  text-align: center;
+}
+
+.msw-content {
+  width: 50%;
+  text-align: justify;
+  text-indent: 35px;
+}
+
+.msw-menu {
+  background: #333;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.msw-menu a {    
+  background: #333 url("images/seperator.gif") bottom right no-repeat;
+  color: #ccc;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
+.msw-menu a:hover {
+  background: #2580a2 url("images/hover.gif") bottom center no-repeat;
+  color: #fff;
+  padding-bottom: 8px;
+}

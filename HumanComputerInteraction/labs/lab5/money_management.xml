@@ -1,0 +1,10 @@
+<money_management>
+	<person id="0">
+		<name>Bob</name>
+		<money>1234567890</money>
+	</person>
+	<person id="1">
+		<name>Margaret</name>
+		<money>1234567890</money>
+	</person>
+</money_management>

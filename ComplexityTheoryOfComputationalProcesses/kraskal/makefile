@@ -1,0 +1,1 @@
+kraskal: kraskal.c

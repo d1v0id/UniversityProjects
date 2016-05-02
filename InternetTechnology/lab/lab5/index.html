@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.2//RU">
+<HTML><HEAD>
+<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf8">
+<TITLE>Лабораторная 5</TITLE>
+<script>
+	function GetName(name) {
+		if (name == "Введите ваше имя" || name == "") {
+			return "аноним";
+		}
+		else {
+			return name;
+		}
+	}
+
+	function GetCityName(CityId) {
+		var result="";
+		switch (CityId) {
+			case '1':
+				result="Новосибирск";
+				break;
+			case '2':
+				result="Томск";
+				break;
+			case '3':
+				result="Красноярск";
+				break;
+			case '4':
+				result="Омск";
+				break;
+			case '5':
+				result="не указанного здесь";
+				break;
+			default:
+				result="не указанного здесь";
+		}
+
+		return result;
+	}
+
+	function GetSexString(sex) {
+		var result="";
+		var cnt = -1;
+		for (var i=sex.length-1; i > -1; i--) {
+			if (sex[i].checked) {
+				cnt = i;
+				break;
+			}
+		}
+
+		switch (cnt) {
+			case 0:
+				result="посетил";
+				break;
+			case 1:
+				result="посетила";
+				break;
+			default:
+				result="посетило";
+		}
+
+		return result;
+	}
+</script>
+</HEAD>
+
+<BODY BGCOLOR="white" 
+ TEXT="black" LINK="blue" ALINK="red" VLINK="green">
+ <form action="#" method="post">
+ 	<p>Имя пользователя<br>
+ 	<input name="nm" type="textbox" value="Введите ваше имя">
+
+ 	<p>Пароль<br>
+ 	<input name="psw" type="password">
+
+ 	<p>Пол<br>
+ 	<input name="malefemale" type="radio" value"1" checked>муж.
+ 	<input name="malefemale" type="radio" value"2">жен.
+
+ 	<p>Город проживания<br>
+ 	<select name="city">
+ 		<option value="1">Новосибирск</option>
+ 		<option value="2">Томск</option>
+ 		<option value="3">Красноярск</option>
+ 		<option value="4">Омск</option>
+ 		<option value="0">Другой</option>
+ 	</select>
+
+ 	<p>
+ 	<input name="ed" type="checkbox">
+ 	Есть ли у Вас высшее образование?<br>
+
+ 	<p>Ваша биография<br>
+ 	<textarea name="" rows="4" cols"50"></textarea> 	
+
+ 	<p>
+ 	<input type="submit" value="Отправить" OnClick="alert('Привет ' + GetName(form.nm.value) + ' из города ' + GetCityName(form.city.value) + ', спасибо что ' + GetSexString(form.malefemale) + ' этот сайт!')">
+ 	<input type="reset" value="Очистить">
+ </form>
+</BODY>
+</HTML>

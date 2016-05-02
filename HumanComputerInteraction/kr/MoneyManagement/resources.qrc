@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>money_management.ico</file>
+        <file>sad_cow.ico</file>
+    </qresource>
+</RCC>

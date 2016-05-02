@@ -1,0 +1,68 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #ffffff;
+}
+
+header {
+	height: 24px;
+	background: #e4e4e4;
+	margin: 0;
+	padding: 10px;
+	font-family: Arial;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+.right {
+	float: right;
+}
+
+section {
+	position: absolute;
+	width: 700px;
+	height: 160px;
+	z-index: 15;
+	top: 50%;
+	left: 50%;
+	margin: -80px 0 0 -350px;
+	border: 4px solid #e4e4e4;
+	text-align: center;
+}
+
+.FlatButton {
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 20px;
+	background: #bf5630;
+	padding: 10px 20px 10px 20px;
+	border: 1px solid #000000;
+	text-decoration: none;
+	box-shadow: 2px 2px 0px #888888;
+}
+
+.FlatButton:hover {
+	background: #ab4032;
+	text-decoration: none;
+}
+
+.FlatButton:active {
+	background: #df5630;
+	text-decoration: none;
+}
+
+.FlatText {
+	width: 50px;
+	font-family: Arial;
+	color: #000000;
+	font-size: 12px;
+	background: #f9f9f9;
+	border: 2px solid #888888;
+}
+
+.FlatFont {
+	font-family: Arial;
+	color: #000000;
+	font-size: 16px;
+	font-weight: bold;
+}

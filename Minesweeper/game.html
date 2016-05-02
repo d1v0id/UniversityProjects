@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Minesweeper</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="minesweeper.js"></script>
+</head>
+<body onload="StartNewGame()">
+  <center>
+    <table style="border: solid 0;">
+      <tr>
+        <td><a href="#" name="p1" onClick="PoleClick(0,0)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p2" onClick="PoleClick(1,0)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p3" onClick="PoleClick(2,0)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p4" onClick="PoleClick(3,0)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p5" onClick="PoleClick(4,0)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p6" onClick="PoleClick(5,0)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p7" onClick="PoleClick(6,0)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p8" onClick="PoleClick(7,0)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p9" onClick="PoleClick(8,0)"><img src="images/p.jpg" /></a></td>
+      </tr>
+      <tr>
+        <td><a href="#" name="p10" onClick="PoleClick(0,1)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p11" onClick="PoleClick(1,1)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p12" onClick="PoleClick(2,1)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p13" onClick="PoleClick(3,1)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p14" onClick="PoleClick(4,1)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p15" onClick="PoleClick(5,1)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p16" onClick="PoleClick(6,1)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p17" onClick="PoleClick(7,1)"><img src="images/p.jpg" /></A></td>
+        <td><a href="#" NAME="p18" onClick="PoleClick(8,1)"><img src="images/p.jpg" /></a></td>
+      </tr>
+      <tr>
+        <td><a href="#" name="p19" onClick="PoleClick(0,2)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p20" onClick="PoleClick(1,2)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p21" onClick="PoleClick(2,2)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p22" onClick="PoleClick(3,2)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p23" onClick="PoleClick(4,2)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p24" onClick="PoleClick(5,2)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p25" onClick="PoleClick(6,2)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p26" onClick="PoleClick(7,2)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p27" onClick="PoleClick(8,2)"><img src="images/p.jpg" /></a></td>
+      </tr>
+      <tr>
+        <td><a href="#" name="p28" onClick="PoleClick(0,3)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p29" onClick="PoleClick(1,3)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p30" onClick="PoleClick(2,3)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p31" onClick="PoleClick(3,3)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p32" onClick="PoleClick(4,3)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p33" onClick="PoleClick(5,3)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p34" onClick="PoleClick(6,3)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p35" onClick="PoleClick(7,3)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p36" onClick="PoleClick(8,3)"><img src="images/p.jpg" /></a></td>
+      </tr>
+
+      <tr>
+        <td><a href="#" name="p37" onClick="PoleClick(0,4)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p38" onClick="PoleClick(1,4)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p39" onClick="PoleClick(2,4)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p40" onClick="PoleClick(3,4)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p41" onClick="PoleClick(4,4)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p42" onClick="PoleClick(5,4)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p43" onClick="PoleClick(6,4)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p44" onClick="PoleClick(7,4)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p45" onClick="PoleClick(8,4)"><img src="images/p.jpg" /></a></td>
+      </tr>
+      <tr>
+        <td><a href="#" name="p46" onClick="PoleClick(0,5)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p47" onClick="PoleClick(1,5)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p48" onClick="PoleClick(2,5)"><img src="images/p.jpg" /></A></td>
+        <td><a href="#" name="p49" onClick="PoleClick(3,5)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p50" onClick="PoleClick(4,5)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p51" onClick="PoleClick(5,5)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p52" onClick="PoleClick(6,5)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p53" onClick="PoleClick(7,5)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p54" onClick="PoleClick(8,5)"><img src="images/p.jpg" /></a></td>
+      </tr>
+      <tr>
+        <td><a href="#" name="p55" onClick="PoleClick(0,6)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p56" onClick="PoleClick(1,6)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p57" onClick="PoleClick(2,6)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p58" onClick="PoleClick(3,6)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p59" onClick="PoleClick(4,6)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p60" onClick="PoleClick(5,6)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p61" onClick="PoleClick(6,6)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p62" onClick="PoleClick(7,6)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p63" onClick="PoleClick(8,6)"><img src="images/p.jpg" /></a></td>
+      </tr>
+      <tr>
+        <td><a href="#" name="p64" onClick="PoleClick(0,7)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p65" onClick="PoleClick(1,7)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p66" onClick="PoleClick(2,7)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p67" onClick="PoleClick(3,7)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p68" onClick="PoleClick(4,7)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p69" onClick="PoleClick(5,7)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p70" onClick="PoleClick(6,7)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p71" onClick="PoleClick(7,7)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p72" onClick="PoleClick(8,7)"><img src="images/p.jpg" /></a></td>
+      </tr>
+      <tr>
+        <td><a href="#" name="p73" onClick="PoleClick(0,8)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p74" onClick="PoleClick(1,8)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p75" onClick="PoleClick(2,8)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p76" onClick="PoleClick(3,8)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p77" onClick="PoleClick(4,8)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p78" onClick="PoleClick(5,8)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p79" onClick="PoleClick(6,8)"><img src="images/p.jpg" /></a></td>
+        <td><a href="#" name="p80" onClick="PoleClick(7,8)"><img SRC="images/p.jpg" /></a></td>
+        <td><a href="#" name="p81" onClick="PoleClick(8,8)"><img SRC="images/p.jpg" /></a></td>
+      </tr>
+    </table>
+  </center>
+</body>
+</html>

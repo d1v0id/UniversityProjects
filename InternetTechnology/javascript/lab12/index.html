@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8" />
+        <title>JavaScript Lab12 | Коннов Дмитрий</title>
+	<link href="style.css" rel="stylesheet">
+	<script src="script.js"></script>
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body OnLoad="arrayGenerate();">
+	<header>
+		Двоичный поиск
+		<font class="right">JavaScript :: Lab12</font>
+	</header>
+	<section>
+		<form action="#" name="form1">
+			<font class="FlatFont">Массив</font>
+			<input type="text" name="textArr0" class="FlatText" />
+			<input type="text" name="textArr1" class="FlatText" />
+			<input type="text" name="textArr2" class="FlatText" />
+			<input type="text" name="textArr3" class="FlatText" />
+			<input type="text" name="textArr4" class="FlatText" />
+			<input type="text" name="textArr5" class="FlatText" />
+			<input type="text" name="textArr6" class="FlatText" />
+			<input type="text" name="textArr7" class="FlatText" />
+			<input type="text" name="textArr8" class="FlatText" />
+			<input type="text" name="textArr9" class="FlatText" />
+			<div class="FlatField">
+				<font class="FlatFont">Поиск</font>
+				<input type="text" name="findField" class="FlatTextRight" />
+			</div>
+			<div class="FlatField">
+				<font class="FlatFont">Результат(Позиция)</font>
+				<input type="text" name="resultField" class="FlatTextRight" />
+			</div>
+		</form>
+		<br />
+		<form action="#" name="form2">
+			<div id="searchHistory">
+			</div>
+		</form>
+		<input type="button" class="FlatButton" OnClick="find();" value="Поиск" />
+		<input type="button" class="FlatButton" OnClick="clearHistory();" value="Очистить" />
+	</section>
+</body>
+</html>
